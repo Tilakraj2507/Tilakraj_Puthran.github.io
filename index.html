@@ -3,24 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tilakraj Puthran · Senior BI Analyst &amp; Power BI Developer</title>
-<meta name="description" content="Tilakraj Puthran — Senior Business Intelligence Analyst and Power BI Developer with 7+ years building fast, governed reporting in Power BI, DAX, SQL and Snowflake.">
+<title>Tilakraj Puthran · Senior Power BI Developer &amp; BI Specialist</title>
+<meta name="description" content="Tilakraj Puthran — Senior Power BI Developer and BI Specialist with 8+ years in Power BI, Microsoft Fabric, semantic models, DAX, SQL and Snowflake.">
 <link rel="canonical" href="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/">
 <meta name="theme-color" content="#0b0d12">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="images/avatar.jpg">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Tilakraj Puthran · Senior BI Analyst & Power BI Developer">
-<meta property="og:description" content="7+ years building fast, trusted Power BI reporting — DAX, data modelling, SQL and Snowflake.">
+<meta property="og:title" content="Tilakraj Puthran · Senior Power BI Developer & BI Specialist">
+<meta property="og:description" content="8+ years in Power BI, Microsoft Fabric, governed semantic models, DAX and SQL.">
 <meta property="og:url" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/">
 <meta property="og:image" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg">
 <meta property="og:image:alt" content="Portrait of Tilakraj Puthran">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tilakraj Puthran · Senior BI Analyst & Power BI Developer">
-<meta name="twitter:description" content="7+ years building fast, trusted Power BI reporting — DAX, data modelling, SQL and Snowflake.">
+<meta name="twitter:title" content="Tilakraj Puthran · Senior Power BI Developer & BI Specialist">
+<meta name="twitter:description" content="8+ years in Power BI, Microsoft Fabric, governed semantic models, DAX and SQL.">
 <meta name="twitter:image" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Tilakraj Ravishankar Puthran","alternateName":"Tilakraj Puthran","jobTitle":"Senior Business Intelligence Analyst","worksFor":{"@type":"Organization","name":"EG India"},"image":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg","url":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/","knowsAbout":["Power BI","DAX","SQL","Snowflake","Data Modeling","Business Intelligence"],"hasCredential":{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Power BI Data Analyst Associate"},"sameAs":["https://www.linkedin.com/in/tilakraj-ravishankar-puthran/","https://github.com/Tilakraj2507","https://www.hackerrank.com/tilakraj2507"]}}
+{"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Tilakraj Ravishankar Puthran","alternateName":"Tilakraj Puthran","jobTitle":"Senior Business Intelligence Specialist","worksFor":{"@type":"Organization","name":"EG India"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Shri Madhwa Vadiraja Institute of Technology & Management"},"image":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg","url":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/","knowsAbout":["Power BI","Microsoft Fabric","DAX","Semantic Models","SQL","Snowflake","Data Modeling","Business Intelligence"],"hasCredential":{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Power BI Data Analyst Associate (PL-300)"},"sameAs":["https://www.linkedin.com/in/tilakraj-ravishankar-puthran/","https://github.com/Tilakraj2507","https://www.hackerrank.com/tilakraj2507"]}}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,6 +116,7 @@ section{padding:96px 0 0}
 
 /* skills */
 .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:1000px) and (min-width:861px){.skills{grid-template-columns:1fr 1fr}}
 .skill{padding:26px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
 .skill h3{font-size:18px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
 .skill h3 i{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:rgba(242,200,17,.12);color:var(--accent);font-style:normal;font-size:15px}
@@ -141,6 +142,18 @@ section{padding:96px 0 0}
 .proj .links a:first-child{background:var(--accent);color:#111;border-color:var(--accent)}
 .proj .links a:hover{opacity:.88}
 @media(max-width:760px){.projects{grid-template-columns:1fr}}
+
+/* featured */
+.feat{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);overflow:hidden}
+.feat .fl{padding:32px}
+.feat .fr{padding:32px;background:var(--bg2);border-left:1px solid var(--line)}
+.feat h3{font-size:24px;margin:8px 0 12px}
+.feat p{color:var(--muted)}
+.feat .fr h4{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.feat .fr .tags{margin-bottom:22px}
+.feat ul.pts{padding-left:18px;color:#cdd1dc;margin-top:14px}
+.feat ul.pts li{margin:5px 0}
+@media(max-width:820px){.feat{grid-template-columns:1fr}.feat .fr{border-left:0;border-top:1px solid var(--line)}.feat .fl,.feat .fr{padding:24px}}
 
 /* certs */
 .certs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
@@ -176,7 +189,7 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
       <li><a href="#impact">Impact</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#featured">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -185,9 +198,9 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
 <header class="hero">
   <div class="wrap">
     <div>
-      <span class="badge"><span class="dot" aria-hidden="true"></span>Currently&nbsp;<b>Senior BI Analyst @ EG India</b></span>
+      <span class="badge"><span class="dot" aria-hidden="true"></span>Currently&nbsp;<b>Senior BI Specialist @ EG India</b></span>
       <h1>I turn messy data into <em>decisions</em>.</h1>
-      <p class="lead">Hi, I'm Tilakraj Puthran — a Senior Business Intelligence Analyst &amp; Power BI Developer with 7+ years building fast, governed reporting across finance, retail, telecom, entertainment and grocery.</p>
+      <p class="lead">Hi, I'm Tilakraj Puthran — a Senior Power BI Developer and Microsoft-certified BI Specialist with 8+ years building governed semantic models, Microsoft Fabric solutions and fast reporting across finance, retail, telecom, entertainment and technology.</p>
       <div class="cta">
         <a class="btn primary" href="https://drive.google.com/file/d/1a8jKXBLqD8_4V8I1vEMYzdZMR08_Un6T/view?usp=sharing" target="_blank" rel="noopener">Download Resume ↓</a>
         <a class="btn ghost" href="#impact">See my impact →</a>
@@ -201,7 +214,7 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
     </div>
     <div class="portrait">
       <img src="images/avatar.jpg" width="988" height="1280" alt="Tilakraj Puthran, smiling, in a light blue shirt" fetchpriority="high">
-      <div class="chip"><b>7+ yrs</b>Power BI · DAX · SQL</div>
+      <div class="chip"><b>8+ yrs</b>Power BI · Fabric · DAX</div>
     </div>
   </div>
 </header>
@@ -211,55 +224,61 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
   <section id="impact" style="padding-top:24px">
     <div class="sec-head reveal">
       <div><div class="eyebrow">Impact</div><h2>Results I've delivered</h2></div>
-      <p>Measured outcomes from enterprise BI work — performance, pipelines and reliability, not just visuals.</p>
+      <p>Measured outcomes from client and enterprise BI work — performance, governance and adoption, not just visuals.</p>
     </div>
     <div class="impact">
-      <article class="imp reveal"><b>40<span>%</span></b><h3>Faster dashboards</h3><p>Reduced Power BI dashboard load times for business users.</p></article>
-      <article class="imp reveal"><b>35<span>%</span></b><h3>Leaner SQL</h3><p>Cut SQL query execution time through query tuning and indexing.</p></article>
-      <article class="imp reveal"><b>30<span>%</span></b><h3>Quicker reporting</h3><p>Improved reporting speed via Snowflake ETL.</p></article>
-      <article class="imp reveal"><b>98<span>%</span></b><h3>SLA compliance</h3><p>Maintained SLA compliance on deliveries at Winman Software.</p></article>
+      <article class="imp reveal"><b>~40<span>%</span></b><h3>Faster report refresh</h3><p>Redesigned Power BI data models and reporting architecture for a telecom &amp; technology client.</p></article>
+      <article class="imp reveal"><b>10<span>→</span>5s</b><h3>Dashboard load time</h3><p>Halved load time by optimising data models and DAX for a grocery &amp; natural foods retailer.</p></article>
+      <article class="imp reveal"><b>~50<span>%</span></b><h3>Faster SQL</h3><p>Cut SQL Server execution time through indexing and query refactoring.</p></article>
+      <article class="imp reveal"><b>500<span>+</span></b><h3>Users governed</h3><p>Administer the Power BI tenant — RLS, workspaces, access and capacity — across 4+ workspaces.</p></article>
     </div>
     <div class="imp-row">
-      <div class="imp-wide reveal"><i aria-hidden="true">⇄</i><div><h3>BI platform migration in 2 months</h3><p>Moved a Sales Trend dashboard from a third-party BI tool to Power BI, rebuilding the model, measures and visuals in Power BI.</p></div></div>
-      <div class="imp-wide reveal"><i aria-hidden="true">✦</i><div><h3>Mentored 5 junior developers</h3><p>Guided junior developers on Power BI, DAX and data-modelling practices.</p></div></div>
+      <div class="imp-wide reveal"><i aria-hidden="true">⇄</i><div><h3>Legacy BI → Power BI migration</h3><p>Led migration of a high-impact Sales Trend dashboard to Power BI — formally recognised by management for delivery speed and quality.</p></div></div>
+      <div class="imp-wide reveal"><i aria-hidden="true">✦</i><div><h3>AI-assisted BI delivery</h3><p>Using Claude and Copilot for DAX optimisation and model health checks: ~30% less development time and ~60% less documentation effort.</p></div></div>
     </div>
   </section>
 
   <section id="experience">
     <div class="sec-head reveal">
       <div><div class="eyebrow">Experience</div><h2>Where I've worked</h2></div>
-      <p>Seven years across product, services and enterprise analytics teams.</p>
+      <p>8+ years across product engineering, consulting delivery and enterprise analytics.</p>
     </div>
     <div class="timeline">
       <article class="job reveal">
         <div class="when">Oct 2025 – Present<br><span class="now">Current</span></div>
         <div>
-          <h3>Senior Business Intelligence Analyst</h3>
-          <div class="org">EG India · Mangalore</div>
+          <h3>Senior Business Intelligence Specialist</h3>
+          <div class="org">EG India (EG A/S) · Mangaluru</div>
           <ul>
-            <li>Own Power BI reporting and semantic models for business stakeholders.</li>
-            <li>Design star-schema models, KPI measures in DAX and secure, governed app deployments with RLS.</li>
+            <li>Lead design of a centralised Composite semantic model — one governed source of truth for 10+ Group Finance reports.</li>
+            <li>Built action-driven reports on Microsoft Fabric with Translytical Task Flows and User Data Functions, including write-back employee feedback and a RAID tracker.</li>
+            <li>Administer the Power BI tenant end to end — governance, access, RLS, app deployment, refresh monitoring and capacity — for 500+ users.</li>
+            <li>Run semantic model training for business users, cutting ad-hoc report requests by ~30%.</li>
           </ul>
         </div>
       </article>
       <article class="job reveal">
         <div class="when">Mar 2022 – Sep 2025</div>
         <div>
-          <h3>Power BI Developer</h3>
-          <div class="org">Tata Consultancy Services · Bangalore</div>
+          <h3>IT Analyst – Power BI Developer</h3>
+          <div class="org">Tata Consultancy Services · Bengaluru</div>
           <ul>
-            <li>Built Group Finance, retail and grocery dashboards — Budget vs Actuals, YoY/MoM and variance analysis.</li>
-            <li>Worked with SQL Server and Snowflake sources, paginated reports and Power BI Service administration.</li>
+            <li><b>Global entertainment company:</b> Power BI SLA dashboard integrated with ServiceNow, tracking ticket lifecycle and SLA compliance across 5+ support teams.</li>
+            <li><b>Telecom &amp; technology:</b> led the Sales Trend migration to Power BI and cut report refresh time by ~40% with a redesigned model.</li>
+            <li><b>Grocery &amp; natural foods retailer:</b> KPI dashboards across 8+ business units with RLS; load time cut from ~10s to ~5s.</li>
+            <li><b>Retail enterprise:</b> Power BI and MicroStrategy dashboards, plus ETL pipelines on Snowflake and IBM DataStage.</li>
           </ul>
         </div>
       </article>
       <article class="job reveal">
         <div class="when">Sep 2018 – Feb 2022</div>
         <div>
-          <h3>Analyst</h3>
-          <div class="org">Winman Software</div>
+          <h3>Senior Software Developer</h3>
+          <div class="org">Winman Software India LLP · Mangaluru</div>
           <ul>
-            <li>Delivered SQL-based reporting and client support with a 98% SLA compliance rate.</li>
+            <li>Tuned SQL Server queries through indexing and refactoring, reducing execution time by ~50%.</li>
+            <li>Designed ETL programs, stored procedures and pipelines loading multiple sources into reporting warehouses.</li>
+            <li>Mentored 4 junior developers, ran code reviews and introduced standard development practices.</li>
           </ul>
         </div>
       </article>
@@ -272,19 +291,55 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
     </div>
     <div class="skills">
       <div class="skill reveal">
-        <h3><i aria-hidden="true">▦</i>Power BI &amp; Visualization</h3>
-        <ul class="tags"><li>Power BI Desktop</li><li>Power BI Service</li><li>Power Query</li><li>Paginated Reports</li><li>Row-Level Security</li><li>App Deployment</li><li>MicroStrategy</li><li>Excel</li></ul>
+        <h3><i aria-hidden="true">▦</i>Power BI &amp; Fabric</h3>
+        <ul class="tags"><li>Power BI Desktop &amp; Service</li><li>Microsoft Fabric</li><li>OneLake</li><li>Semantic Models</li><li>Composite Models</li><li>Translytical Task Flows</li><li>User Data Functions</li><li>Paginated Reports</li><li>Power Automate</li></ul>
       </div>
       <div class="skill reveal">
-        <h3><i aria-hidden="true">ƒ</i>DAX &amp; Modelling</h3>
-        <ul class="tags"><li>Complex Measures</li><li>KPIs</li><li>Time Intelligence</li><li>Budget vs Actuals</li><li>Variance Analysis</li><li>Star Schema</li><li>Performance Tuning</li></ul>
+        <h3><i aria-hidden="true">ƒ</i>Modelling &amp; Performance</h3>
+        <ul class="tags"><li>Advanced DAX</li><li>Power Query (M)</li><li>Star Schema</li><li>Time Intelligence</li><li>DAX Studio</li><li>Tabular Editor</li><li>Performance Analyzer</li><li>Model Health Checks</li></ul>
       </div>
       <div class="skill reveal">
         <h3><i aria-hidden="true">⛁</i>Data &amp; Engineering</h3>
-        <ul class="tags"><li>SQL Server</li><li>Snowflake</li><li>Query Tuning</li><li>Indexing</li><li>ETL</li><li>IBM DataStage</li><li>Agile</li></ul>
+        <ul class="tags"><li>SQL Server / T-SQL</li><li>Stored Procedures</li><li>Snowflake</li><li>Azure</li><li>Data Warehousing</li><li>ETL</li><li>IBM DataStage</li></ul>
+      </div>
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">⛨</i>Governance &amp; Admin</h3>
+        <ul class="tags"><li>Row-Level Security</li><li>Workspace Governance</li><li>Access Provisioning</li><li>App Deployment</li><li>Refresh Monitoring</li><li>Fabric Capacity</li></ul>
+      </div>
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">✦</i>AI-Assisted BI</h3>
+        <ul class="tags"><li>Copilot for Power BI</li><li>Claude</li><li>AI-Assisted DAX</li><li>Automated Documentation</li></ul>
+      </div>
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">◎</i>Also</h3>
+        <ul class="tags"><li>MicroStrategy</li><li>IBM Cognos</li><li>ServiceNow</li><li>Agile / Scrum</li><li>Code Reviews</li><li>End-User Training</li></ul>
       </div>
     </div>
-    <p class="domains reveal"><b>Domains:</b> Group Finance · Retail · Grocery · Telecom · Entertainment &nbsp;·&nbsp; <b>Ways of working:</b> stakeholder management, Agile delivery, mentoring</p>
+    <p class="domains reveal"><b>Domains:</b> Group Finance · Retail · Telecom · Entertainment · Technology &nbsp;·&nbsp; <b>Ways of working:</b> requirements gathering, stakeholder management, mentoring</p>
+  </section>
+
+  <section id="featured">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Featured project</div><h2>Client work</h2></div>
+      <p>Built for a real business — details kept confidential.</p>
+    </div>
+    <article class="feat reveal">
+      <div class="fl">
+        <span class="eyebrow">Power BI · Optics &amp; Photonics</span>
+        <h3>Sales Analytics Dashboard</h3>
+        <p>Self-service sales analytics for leadership, tracking performance at company, regional and office level.</p>
+        <ul class="pts">
+          <li>Drill-through and dynamic filtering from company down to individual offices.</li>
+          <li>Complex DAX KPIs: AR, Unity, Multiple, Remake Rate, Material, Progressive Lenses and insurance claim trends.</li>
+        </ul>
+      </div>
+      <div class="fr">
+        <h4>Built with</h4>
+        <ul class="tags"><li>Power BI</li><li>Advanced DAX</li><li>Drill-through</li><li>Dynamic filtering</li></ul>
+        <h4>Outcome</h4>
+        <p>Self-service analytics that lets leadership explore sales and quality KPIs on their own.</p>
+      </div>
+    </article>
   </section>
 
   <section id="projects">
@@ -346,11 +401,11 @@ footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
 
   <section id="certs">
     <div class="sec-head reveal">
-      <div><div class="eyebrow">Credentials</div><h2>Certifications</h2></div>
+      <div><div class="eyebrow">Credentials</div><h2>Certification &amp; education</h2></div>
     </div>
     <div class="certs">
-      <div class="cert reveal"><div class="ico" aria-hidden="true">◆</div><div><b>Microsoft Certified: Power BI Data Analyst Associate</b><br><small>Microsoft · PL-300 · 2023</small></div></div>
-      <div class="cert reveal"><div class="ico" aria-hidden="true">◆</div><div><b>SQL Certification</b><br><small>HackerRank</small></div></div>
+      <div class="cert reveal"><div class="ico" aria-hidden="true">◆</div><div><b>Microsoft Certified: Power BI Data Analyst Associate</b><br><small>Microsoft · PL-300</small></div></div>
+      <div class="cert reveal"><div class="ico" aria-hidden="true">◇</div><div><b>B.E., Electronics &amp; Communication Engineering</b><br><small>Shri Madhwa Vadiraja Institute of Technology &amp; Management · 2014 – 2018</small></div></div>
     </div>
   </section>
 
