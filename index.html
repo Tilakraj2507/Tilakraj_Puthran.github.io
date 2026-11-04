@@ -1,93 +1,388 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Tilakraj Puthran Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tilakraj Puthran · Senior BI Analyst &amp; Power BI Developer</title>
+<meta name="description" content="Tilakraj Puthran — Senior Business Intelligence Analyst and Power BI Developer with 7+ years building fast, governed reporting in Power BI, DAX, SQL and Snowflake.">
+<link rel="canonical" href="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/">
+<meta name="theme-color" content="#0b0d12">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/avatar.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Tilakraj Puthran · Senior BI Analyst & Power BI Developer">
+<meta property="og:description" content="7+ years building fast, trusted Power BI reporting — DAX, data modelling, SQL and Snowflake.">
+<meta property="og:url" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/">
+<meta property="og:image" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg">
+<meta property="og:image:alt" content="Portrait of Tilakraj Puthran">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tilakraj Puthran · Senior BI Analyst & Power BI Developer">
+<meta name="twitter:description" content="7+ years building fast, trusted Power BI reporting — DAX, data modelling, SQL and Snowflake.">
+<meta name="twitter:image" content="https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Tilakraj Ravishankar Puthran","alternateName":"Tilakraj Puthran","jobTitle":"Senior Business Intelligence Analyst","worksFor":{"@type":"Organization","name":"EG India"},"image":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/images/avatar.jpg","url":"https://tilakraj2507.github.io/Tilakraj_Puthran.github.io/","knowsAbout":["Power BI","DAX","SQL","Snowflake","Data Modeling","Business Intelligence"],"hasCredential":{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Power BI Data Analyst Associate"},"sameAs":["https://www.linkedin.com/in/tilakraj-ravishankar-puthran/","https://github.com/Tilakraj2507","https://www.hackerrank.com/tilakraj2507"]}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0d12;--bg2:#11141b;--card:#151922;--line:#262b39;
+  --text:#e8eaf0;--muted:#a3aabb;--accent:#f2c811;--accent2:#7ea2ff;
+  --radius:16px;--max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;line-height:1.15;letter-spacing:-.02em}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;z-index:50;background:var(--accent);color:#111;padding:8px 14px;border-radius:8px;font-weight:600}
+.skip:focus{left:16px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+@media(max-width:480px){.wrap{padding:0 16px}}
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-						<h1><strong>Hi! I'm Tilakraj Puthran</strong></h1>
-						<p><i>Data Analyst and Power BI Developer</i></p>
-					<ul class="icons">
-						<li><a href="https://www.hackerrank.com/tilakraj2507" class="icon brands fa-hackerrank"><span class="label">Hackerrank</span></a></li>
-						<li><a href="https://github.com/Tilakraj2507" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/tilakraj-ravishankar-puthran/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="mailto:tilakraj2507@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="actionsleft">
-						<li><a href="https://drive.google.com/file/d/1a8jKXBLqD8_4V8I1vEMYzdZMR08_Un6T/view?usp=sharing" class="button">Download Resume</a></li></br>
-						<li><a href="mailto:tilakraj2507@gmail.com" class="button">Get in Touch!</a></li>
-					</ul>
-				</div>
-			</header>
+/* nav */
+nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(11,13,18,.78);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:"Space Grotesk";font-weight:700;font-size:18px}
+.logo span{color:var(--accent)}
+nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--muted)}
+nav ul a{padding:6px 0}
+nav ul a:hover{color:var(--text)}
+@media(max-width:720px){nav ul{display:none}}
 
-		<!-- Main -->
-			<div id="main">
-				<!-- Two -->
-					<section id="two">
-						<header class="major">
-							<h2>PORTFOLIO</h2>
-							<hr>
-						</header>
-						<div class="row">
-							<article class="col-12">
-								<h3>AtliQ Hotels Revenue Insights - Power BI Dashboard </h3>
-								<p>In this dashboard we provide insights to the Revenue Team in AtliQ Hotels to understand why they are losing its market share and revenue in the luxury/business hotels category.</br>
-								(This case scenairo was a challenge from the <a href="https://codebasics.io/">Codebasics</a> :</br>
-								&nbsp;Challenge #1 : Provide Insights to the Revenue Team in the Hospitality Domain)</p>
-								<a class="image fit thumb"><img src="images/thumbs/AtliQ BI.png" alt="" /></a>	
-								<ul class="actions fit small">
-									<li><a href="https://app.powerbi.com/view?r=eyJrIjoiNmY4ZDdkZDctMWYwYi00YzNlLWFiZTktNGZiODUzNDY0N2RjIiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" class="button fit small">View Dashboard</a></li>
-									<li><a href="https://github.com/Tilakraj2507/AtliQ-Grands-Hotels-Revenue-Insights-PowerBi" class="button fit small">Github</a></li>
-								</ul>
-								<hr>
-							</article>
-							<article class="col-12">
-								<h3>Credit Card Spendings - Power BI Dashboard </h3>
-								<p>In this dashboard, we show the analysis carried out on credit card spending habits in India in 2013-2015.</p>
-								<a class="image fit thumb"><img src="images/thumbs/Credit Card Bi.png" alt="" /></a>	
-								<ul class="actions fit small">
-									<li><a href="https://app.powerbi.com/view?r=eyJrIjoiNWU1OTEzOWEtY2Y5OS00NjY4LTliYjgtYmEzN2ExNWY3NjI0IiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" class="button fit small">View Dashboard</a></li>
-									<li><a href="https://github.com/Tilakraj2507/Credit-Card-Spending-Analysis-PowerBi" class="button fit small">Github</a></li>
-								</ul>
-								<hr>
-							</article>
-							<article class="col-12">
-								<h3>Covid 19 Vaccination - Power BI Dashboard </h3>
-								<p>This is a Baisc dashboard, created to demonstrate data analysis on COVID-19 vaccination.</p>
-								<a class="image fit thumb"><img src="images/thumbs/Covid_19_BI.png" alt="" /></a>	
-								<ul class="actions fit small">
-									<li><a href="https://app.powerbi.com/view?r=eyJrIjoiYTI1MTQyMzQtMmQ3My00MWIyLTljMDctNDRhNDczZGQ3OGI3IiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" class="button fit small">View Dashboard</a></li>
-									<li><a href="https://github.com/Tilakraj2507/COVID-Vaccination-Data-Analysis-PowerBi" class="button fit small">Github</a></li>
-								</ul>
-								<hr>
-							</article>
-							<article class="col-12">
-								<h3>Covid 19 Data Exploration Using SQL</h3>
-								<p>In this project we use SQL Server to explore global COVID 19 data.</p>
-								<a class="image fit thumb"><img src="images/thumbs/Covid_19.png" alt="" /></a>	
-								<ul class="actions fit small">
-									<li><a href="https://github.com/Tilakraj2507/COVID-Data-Analysis-SQL/blob/main/Covid_Data_Analysis.sql" class="button fit small">View Queries</a></li>
-									<li><a href="https://github.com/Tilakraj2507/COVID-Data-Analysis-SQL" class="button fit small">Github</a></li>
-								</ul>
-								<hr>
-							</article>
-						</div>
-					</section>
+/* hero */
+.hero{position:relative;padding:96px 0 72px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-40% -20% auto auto;width:720px;height:720px;background:radial-gradient(circle,rgba(242,200,17,.16),transparent 60%);pointer-events:none}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;opacity:.25;-webkit-mask-image:radial-gradient(ellipse at 30% 30%,#000 20%,transparent 70%);mask-image:radial-gradient(ellipse at 30% 30%,#000 20%,transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.4fr .9fr;gap:56px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border:1px solid var(--line);border-radius:99px;font-size:13px;color:var(--muted);background:var(--bg2)}
+.badge b{color:var(--text);font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(242,200,17,.15)}
+.hero h1{font-size:clamp(40px,6vw,68px);margin:22px 0 18px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:560px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0 28px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:12px 22px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid transparent;cursor:pointer;font-family:inherit;transition:transform .15s,background .15s,border-color .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--accent);color:#111}
+.btn.ghost{border-color:var(--line);background:var(--bg2);color:var(--text)}
+.btn.ghost:hover{border-color:var(--muted)}
+.socials{display:flex;gap:10px}
+.socials a{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);border-radius:12px;color:var(--muted);transition:.15s}
+.socials a:hover{color:var(--accent);border-color:var(--accent)}
+.socials svg{width:19px;height:19px;fill:currentColor}
+.portrait{position:relative;justify-self:center;width:100%;max-width:340px}
+.portrait img{border-radius:24px;aspect-ratio:4/5;object-fit:cover;border:1px solid var(--line);width:100%}
+.portrait .chip{position:absolute;left:-24px;bottom:28px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-size:13px;box-shadow:0 20px 40px rgba(0,0,0,.4)}
+.chip b{display:block;font-family:"Space Grotesk";font-size:22px;color:var(--accent)}
+@media(max-width:860px){.hero{padding:56px 0 56px}.hero .wrap{grid-template-columns:1fr;gap:36px}.portrait{max-width:240px;order:-1;justify-self:start}.portrait .chip{left:auto;right:-20px}}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+/* sections */
+section{padding:96px 0 0}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(30px,4vw,44px);margin-top:8px}
+.sec-head p{color:var(--muted);max-width:440px}
 
-	</body>
+/* impact */
+.impact{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.imp{padding:26px 22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+.imp b{font-family:"Space Grotesk";font-size:40px;display:block;line-height:1}
+.imp b span{color:var(--accent)}
+.imp h3{font-size:16px;margin:14px 0 6px}
+.imp p{color:var(--muted);font-size:14px}
+.imp-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.imp-wide{display:flex;gap:16px;align-items:flex-start;padding:22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg2)}
+.imp-wide i{flex:none;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:rgba(242,200,17,.12);color:var(--accent);font-style:normal;font-size:18px}
+.imp-wide h3{font-size:16px;margin-bottom:4px}
+.imp-wide p{color:var(--muted);font-size:14px}
+@media(max-width:900px){.impact{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.impact,.imp-row{grid-template-columns:1fr}}
+
+/* experience */
+.timeline{display:grid;gap:16px}
+.job{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:28px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);transition:border-color .2s}
+.job:hover{border-color:#3a4155}
+.job .when{color:var(--muted);font-size:14px}
+.job .now{display:inline-block;margin-top:6px;font-size:12px;padding:2px 10px;border-radius:99px;background:rgba(242,200,17,.12);color:var(--accent)}
+.job h3{font-size:21px}
+.job .org{color:var(--muted);margin:2px 0 12px}
+.job ul{padding-left:18px;color:#cdd1dc}
+.job li{margin:4px 0}
+@media(max-width:720px){.job{grid-template-columns:1fr;gap:8px;padding:22px}}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill{padding:26px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+.skill h3{font-size:18px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.skill h3 i{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:rgba(242,200,17,.12);color:var(--accent);font-style:normal;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none}
+.tags li{font-size:13px;padding:5px 11px;border-radius:8px;background:var(--bg2);border:1px solid var(--line);color:#cdd1dc}
+.domains{margin-top:16px;padding:20px 24px;border:1px dashed var(--line);border-radius:var(--radius);color:var(--muted);font-size:15px}
+.domains b{color:var(--text)}
+@media(max-width:860px){.skills{grid-template-columns:1fr}}
+
+/* projects */
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.proj{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);overflow:hidden;transition:transform .2s,border-color .2s}
+.proj:hover{transform:translateY(-4px);border-color:#3a4155}
+.proj .shot{aspect-ratio:16/9;overflow:hidden;background:#fff;border-bottom:1px solid var(--line)}
+.proj .shot img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .4s}
+.proj:hover .shot img{transform:scale(1.04)}
+.proj .body{padding:24px;display:flex;flex-direction:column;flex:1}
+.proj .kind{font-size:12px;color:var(--accent);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.proj h3{font-size:20px;margin:8px 0 10px}
+.proj p{color:var(--muted);font-size:15px;flex:1}
+.proj .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.proj .links a{font-size:14px;font-weight:600;min-height:40px;display:inline-flex;align-items:center;padding:8px 16px;border-radius:10px;border:1px solid var(--line)}
+.proj .links a:first-child{background:var(--accent);color:#111;border-color:var(--accent)}
+.proj .links a:hover{opacity:.88}
+@media(max-width:760px){.projects{grid-template-columns:1fr}}
+
+/* certs */
+.certs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.cert{display:flex;gap:16px;align-items:center;padding:22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+.cert .ico{flex:none;width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:rgba(126,162,255,.14);color:var(--accent2);font-size:22px}
+.cert small{color:var(--muted)}
+@media(max-width:720px){.certs{grid-template-columns:1fr}}
+
+/* contact */
+.contact{margin:96px 0 0;padding:64px 32px;border-radius:24px;text-align:center;background:linear-gradient(135deg,#1a1d10,#151922 55%);border:1px solid var(--line);position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;inset:auto auto -50% 50%;transform:translateX(-50%);width:600px;height:400px;background:radial-gradient(circle,rgba(242,200,17,.18),transparent 65%);pointer-events:none}
+.contact>*{position:relative}
+.contact h2{font-size:clamp(30px,4vw,46px);margin:10px 0 14px}
+.contact p{color:var(--muted);max-width:520px;margin:0 auto 28px}
+.contact .cta{justify-content:center;margin:0}
+.toast{display:block;min-height:22px;margin-top:14px;font-size:14px;color:var(--accent)}
+footer{padding:40px 0;color:var(--muted);font-size:14px;text-align:center}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.btn:hover,.proj:hover,.proj:hover .shot img{transform:none}}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav aria-label="Primary">
+  <div class="wrap">
+    <a href="#" class="logo" aria-label="Tilakraj Puthran, home">Tilakraj<span>.</span></a>
+    <ul>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <span class="badge"><span class="dot" aria-hidden="true"></span>Currently&nbsp;<b>Senior BI Analyst @ EG India</b></span>
+      <h1>I turn messy data into <em>decisions</em>.</h1>
+      <p class="lead">Hi, I'm Tilakraj Puthran — a Senior Business Intelligence Analyst &amp; Power BI Developer with 7+ years building fast, governed reporting across finance, retail, telecom, entertainment and grocery.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://drive.google.com/file/d/1a8jKXBLqD8_4V8I1vEMYzdZMR08_Un6T/view?usp=sharing" target="_blank" rel="noopener">Download Resume ↓</a>
+        <a class="btn ghost" href="#impact">See my impact →</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/tilakraj-ravishankar-puthran/" target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg></a>
+        <a href="https://github.com/Tilakraj2507" target="_blank" rel="noopener" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+        <a href="https://www.hackerrank.com/tilakraj2507" target="_blank" rel="noopener" aria-label="HackerRank profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1.29 0 9.45 4.62 10.1 5.74.64 1.11.64 11.4 0 12.52C21.45 19.38 13.29 24 12 24s-9.45-4.63-10.1-5.74C1.26 17.15 1.26 6.86 1.9 5.74 2.55 4.62 10.71 0 12 0zm2.3 6.18v4.55H9.7V6.18H7.2v11.64h2.5v-4.6h4.6v4.6h2.5V6.18z"/></svg></a>
+        <a href="#contact" aria-label="Contact by email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5zm2.2.5L12 11.6 19.8 6zM20 7.9l-7.42 5.33a1 1 0 0 1-1.16 0L4 7.9V18h16z"/></svg></a>
+      </div>
+    </div>
+    <div class="portrait">
+      <img src="images/avatar.jpg" width="988" height="1280" alt="Tilakraj Puthran, smiling, in a light blue shirt" fetchpriority="high">
+      <div class="chip"><b>7+ yrs</b>Power BI · DAX · SQL</div>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section id="impact" style="padding-top:24px">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Impact</div><h2>Results I've delivered</h2></div>
+      <p>Measured outcomes from enterprise BI work — performance, pipelines and reliability, not just visuals.</p>
+    </div>
+    <div class="impact">
+      <article class="imp reveal"><b>40<span>%</span></b><h3>Faster dashboards</h3><p>Reduced Power BI dashboard load times for business users.</p></article>
+      <article class="imp reveal"><b>35<span>%</span></b><h3>Leaner SQL</h3><p>Cut SQL query execution time through query tuning and indexing.</p></article>
+      <article class="imp reveal"><b>30<span>%</span></b><h3>Quicker reporting</h3><p>Improved reporting speed via Snowflake ETL.</p></article>
+      <article class="imp reveal"><b>98<span>%</span></b><h3>SLA compliance</h3><p>Maintained SLA compliance on deliveries at Winman Software.</p></article>
+    </div>
+    <div class="imp-row">
+      <div class="imp-wide reveal"><i aria-hidden="true">⇄</i><div><h3>BI platform migration in 2 months</h3><p>Moved a Sales Trend dashboard from a third-party BI tool to Power BI, rebuilding the model, measures and visuals in Power BI.</p></div></div>
+      <div class="imp-wide reveal"><i aria-hidden="true">✦</i><div><h3>Mentored 5 junior developers</h3><p>Guided junior developers on Power BI, DAX and data-modelling practices.</p></div></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Experience</div><h2>Where I've worked</h2></div>
+      <p>Seven years across product, services and enterprise analytics teams.</p>
+    </div>
+    <div class="timeline">
+      <article class="job reveal">
+        <div class="when">Oct 2025 – Present<br><span class="now">Current</span></div>
+        <div>
+          <h3>Senior Business Intelligence Analyst</h3>
+          <div class="org">EG India · Mangalore</div>
+          <ul>
+            <li>Own Power BI reporting and semantic models for business stakeholders.</li>
+            <li>Design star-schema models, KPI measures in DAX and secure, governed app deployments with RLS.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="job reveal">
+        <div class="when">Mar 2022 – Sep 2025</div>
+        <div>
+          <h3>Power BI Developer</h3>
+          <div class="org">Tata Consultancy Services · Bangalore</div>
+          <ul>
+            <li>Built Group Finance, retail and grocery dashboards — Budget vs Actuals, YoY/MoM and variance analysis.</li>
+            <li>Worked with SQL Server and Snowflake sources, paginated reports and Power BI Service administration.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="job reveal">
+        <div class="when">Sep 2018 – Feb 2022</div>
+        <div>
+          <h3>Analyst</h3>
+          <div class="org">Winman Software</div>
+          <ul>
+            <li>Delivered SQL-based reporting and client support with a 98% SLA compliance rate.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Toolkit</div><h2>What I work with</h2></div>
+    </div>
+    <div class="skills">
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">▦</i>Power BI &amp; Visualization</h3>
+        <ul class="tags"><li>Power BI Desktop</li><li>Power BI Service</li><li>Power Query</li><li>Paginated Reports</li><li>Row-Level Security</li><li>App Deployment</li><li>MicroStrategy</li><li>Excel</li></ul>
+      </div>
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">ƒ</i>DAX &amp; Modelling</h3>
+        <ul class="tags"><li>Complex Measures</li><li>KPIs</li><li>Time Intelligence</li><li>Budget vs Actuals</li><li>Variance Analysis</li><li>Star Schema</li><li>Performance Tuning</li></ul>
+      </div>
+      <div class="skill reveal">
+        <h3><i aria-hidden="true">⛁</i>Data &amp; Engineering</h3>
+        <ul class="tags"><li>SQL Server</li><li>Snowflake</li><li>Query Tuning</li><li>Indexing</li><li>ETL</li><li>IBM DataStage</li><li>Agile</li></ul>
+      </div>
+    </div>
+    <p class="domains reveal"><b>Domains:</b> Group Finance · Retail · Grocery · Telecom · Entertainment &nbsp;·&nbsp; <b>Ways of working:</b> stakeholder management, Agile delivery, mentoring</p>
+  </section>
+
+  <section id="projects">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Earlier projects</div><h2>Public dashboards</h2></div>
+      <p>Personal projects built on public datasets — client work stays confidential, so these show my approach in the open.</p>
+    </div>
+    <div class="projects">
+      <article class="proj reveal">
+        <div class="shot"><img src="images/thumbs/AtliQ%20BI.png" width="875" height="719" alt="AtliQ Hotels dashboard showing revenue, RevPAR, occupancy and ADR by week and booking platform" loading="lazy"></div>
+        <div class="body">
+          <span class="kind">Power BI · Hospitality</span>
+          <h3>AtliQ Hotels Revenue Insights</h3>
+          <p>Diagnosed why AtliQ was losing market share in luxury/business hotels — revenue, occupancy and booking-platform trends for the revenue team. Codebasics Challenge #1.</p>
+          <div class="links">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNmY4ZDdkZDctMWYwYi00YzNlLWFiZTktNGZiODUzNDY0N2RjIiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" target="_blank" rel="noopener">Live dashboard</a>
+            <a href="https://github.com/Tilakraj2507/AtliQ-Grands-Hotels-Revenue-Insights-PowerBi" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+      <article class="proj reveal">
+        <div class="shot"><img src="images/thumbs/Credit%20Card%20Bi.png" width="1262" height="720" alt="Credit card spending dashboard with spend by gender, card type, month and city" loading="lazy"></div>
+        <div class="body">
+          <span class="kind">Power BI · Finance</span>
+          <h3>Credit Card Spending Analysis</h3>
+          <p>Credit card spending habits across India from 2013–2015, turning raw transactions into clear spending patterns.</p>
+          <div class="links">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU1OTEzOWEtY2Y5OS00NjY4LTliYjgtYmEzN2ExNWY3NjI0IiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" target="_blank" rel="noopener">Live dashboard</a>
+            <a href="https://github.com/Tilakraj2507/Credit-Card-Spending-Analysis-PowerBi" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+      <article class="proj reveal">
+        <div class="shot"><img src="images/thumbs/Covid_19_BI.png" width="1262" height="720" alt="COVID-19 vaccination dashboard with totals, a world map and top countries by vaccination" loading="lazy"></div>
+        <div class="body">
+          <span class="kind">Power BI · Public Health</span>
+          <h3>COVID-19 Vaccination Dashboard</h3>
+          <p>Vaccination progress across countries, demonstrating data cleaning, modelling and visual storytelling.</p>
+          <div class="links">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiYTI1MTQyMzQtMmQ3My00MWIyLTljMDctNDRhNDczZGQ3OGI3IiwidCI6IjJlYWZhNDQ4LTQzNzMtNGEyNi05NWM2LTUyZGVhNTFlODA5YSJ9" target="_blank" rel="noopener">Live dashboard</a>
+            <a href="https://github.com/Tilakraj2507/COVID-Vaccination-Data-Analysis-PowerBi" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+      <article class="proj reveal">
+        <div class="shot"><img src="images/thumbs/Covid_19.png" width="1128" height="565" alt="COVID-19 virus illustration for the SQL data exploration project" loading="lazy"></div>
+        <div class="body">
+          <span class="kind">SQL Server · Exploration</span>
+          <h3>COVID-19 Data Exploration in SQL</h3>
+          <p>Global COVID-19 data explored in SQL Server — cases, deaths and vaccination trends across countries.</p>
+          <div class="links">
+            <a href="https://github.com/Tilakraj2507/COVID-Data-Analysis-SQL/blob/main/Covid_Data_Analysis.sql" target="_blank" rel="noopener">View queries</a>
+            <a href="https://github.com/Tilakraj2507/COVID-Data-Analysis-SQL" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="certs">
+    <div class="sec-head reveal">
+      <div><div class="eyebrow">Credentials</div><h2>Certifications</h2></div>
+    </div>
+    <div class="certs">
+      <div class="cert reveal"><div class="ico" aria-hidden="true">◆</div><div><b>Microsoft Certified: Power BI Data Analyst Associate</b><br><small>Microsoft · PL-300 · 2023</small></div></div>
+      <div class="cert reveal"><div class="ico" aria-hidden="true">◆</div><div><b>SQL Certification</b><br><small>HackerRank</small></div></div>
+    </div>
+  </section>
+
+  <section class="contact reveal" id="contact" aria-labelledby="contact-h">
+    <div class="eyebrow">Let's talk</div>
+    <h2 id="contact-h">Have a BI challenge worth solving?</h2>
+    <p>Whether it's slow reports, a messy model or a migration to Power BI — I'm always happy to talk data.</p>
+    <div class="cta">
+      <button class="btn primary" type="button" id="mail">Email me</button>
+      <button class="btn ghost" type="button" id="copy">Copy email</button>
+      <a class="btn ghost" href="https://www.linkedin.com/in/tilakraj-ravishankar-puthran/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <span class="toast" id="toast" role="status" aria-live="polite"></span>
+  </section>
+</main>
+
+<footer>© <span id="y">2026</span> Tilakraj Ravishankar Puthran</footer>
+
+<script>
+(function(){
+  var u=['tilakraj','2507'].join(''), d=['gmail','com'].join('.'), e=u+'@'+d;
+  document.getElementById('mail').onclick=function(){location.href='mai'+'lto:'+e};
+  document.getElementById('copy').onclick=function(){
+    var t=document.getElementById('toast');
+    if(navigator.clipboard){navigator.clipboard.writeText(e).then(function(){t.textContent='Copied: '+e},function(){t.textContent=e})}else{t.textContent=e}
+  };
+  document.getElementById('y').textContent=new Date().getFullYear();
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+  els.forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
 </html>
